@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Intent</string>
+    <string name="et1">Ingrese Nombre</string>
+    <string name="et2">Ingrese Apellido</string>
+    <string name="button">Enviar</string>
+    <string name="button2">Retornar</string>
+
+    <string name="txt3">Nombres</string>
+    <string name="txt4">Apellidos</string>
+
+    <string name="txt5">Ingresa URL</string>
+    <string name="btnnavegar">Navegar</string>
+
+    <string name="button3">CERRAR</string>
+    <string name="wv1">Mapa</string>
+    <string name="retornar">Retornar</string>
+</resources>

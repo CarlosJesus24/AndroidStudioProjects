@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.sistemas.intent.Main2Activity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="109dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="56dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="28dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv1" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="99dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="48dp"
+        android:hint="@string/button2"
+        android:onClick="Retorno"
+        android:text="@string/retornar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv2"
+        tools:text="@string/button2" />
+</android.support.constraint.ConstraintLayout>
